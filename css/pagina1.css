@@ -1,0 +1,87 @@
+@import url(variables.css);
+:root{
+    --color-primary:#fcfcfc;
+}
+*{
+    box-sizing: border-box;
+    font-family: "PlusJakartaSans-Regular";
+}
+.body{
+    background: var(--color-body);
+}
+.header{
+    height: 8vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.titulo{
+    font-size: 5vh;
+    text-transform: capitalize;
+    margin-left: 8vh;
+}
+.menu{
+    margin-right: 8vh;
+    text-transform: capitalize;
+    width: 40%;
+    text-align: center;
+}
+.menu ul{
+    font-size: 2.6vh;
+   
+}
+.menu ul li{
+    display: inline;
+    margin: 2vh;
+    
+}
+.menu ul li a{
+    text-decoration: none;
+    margin: .5vh;
+    color: black;
+}
+.container1{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+
+}
+
+.left{
+    text-transform: capitalize;
+    font-size: 200%;
+    
+}
+
+.left h1{
+    font-size: 350%;
+    width: 70vh;
+    margin: 27% 0% 0% 25%;
+}
+
+.left p{
+    font-size: 120%;
+    width: 40%;
+    margin: 3% 0% 0% 25%;
+}
+
+.left button{
+    font-size: 100%;
+    width: 21vh;
+    margin: 3% 0% 0% 25%;
+    height: 6vh ;
+    text-transform: capitalize;
+}
+
+.rigth{
+
+    height: 90vh;
+}
+.rigth img{
+    width: 60vh;
+    margin-top:10% ;
+    margin-left: 10%;
+}
